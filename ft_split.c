@@ -3,17 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncastell <ncastell@student.42barcel>       +#+  +:+       +#+        */
+/*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 19:20:25 by ncastell          #+#    #+#             */
-/*   Updated: 2022/12/31 12:41:13 by ncastell         ###   ########.fr       */
+/*   Updated: 2024/01/24 17:12:21 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <string.h>*/
+
 #include "libft.h"
 
 int	ft_countwords(char const *s, char c)
@@ -86,17 +82,3 @@ char	**ft_split(char const *s, char c)
 	str[j] = 0;
 	return (str);
 }
-/*
-int	main(void)
-{
-	char **resul = ft_split("Hola, soy, Naomy Cast, y, me gusta, comer, pan.", ',');
-	int	i = 0;
-
-	while (resul[i])
-	{
-		printf("%s  ", resul[i]);
-		i++;
-	}
-	printf("%d", ft_countwords("Hola, me, llamo, nao, y, tengo, 21.", ','));
-
-}*/

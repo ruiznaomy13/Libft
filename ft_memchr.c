@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncastell <ncastell@student.42barcel>       +#+  +:+       +#+        */
+/*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 23:49:45 by ncastell          #+#    #+#             */
-/*   Updated: 2022/10/16 16:14:15 by ncastell         ###   ########.fr       */
+/*   Updated: 2024/01/24 16:52:27 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*
-int main()
-{
-//	const char str[] = "www.naomycastle.com";
-//	const char c = '.';
-
-	printf("%s\n", ft_memchr("bonjour", 'b', 4));
-	printf("%s\n", memchr("bonjour", 'b', 4));
-}*/

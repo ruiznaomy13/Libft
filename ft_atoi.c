@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncastell <ncastell@student.42barcel>       +#+  +:+       +#+        */
+/*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 15:55:02 by ncastell          #+#    #+#             */
-/*   Updated: 2022/12/23 17:01:16 by ncastell         ###   ########.fr       */
+/*   Updated: 2024/01/24 16:46:48 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,11 +38,3 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)(num * neg));
 }
-/*
-int	main(){
-	char num[10] = " -477";
-	//char num1[10] = " 122";
-
-	printf("La cadena \"%s\" = numero: %d\n", num, atoi(num));
-	printf("La cadena \"%s\" = numero: %d\n", num, ft_atoi(num));
-}*/

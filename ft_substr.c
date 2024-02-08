@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncastell <ncastell@student.42barcel>       +#+  +:+       +#+        */
+/*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 11:00:35 by ncastell          #+#    #+#             */
-/*   Updated: 2022/11/16 14:50:15 by ncastell         ###   ########.fr       */
+/*   Updated: 2024/01/24 16:54:11 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	s2[i] = '\0';
 	return (s2);
 }
-/*
-int	main()
-{
-	//const char	str[] = "Me gusta el pan con mantequilla";
-
-	printf("*%s*\n",ft_substr("Hola", 0, 4));
-
-}*/
